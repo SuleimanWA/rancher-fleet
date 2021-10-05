@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: test-rancher
 spec:
   selector:
     matchLabels:
-      app: guestbook
-      tier: frontend
+      app: nginx
+      tier: test
   replicas: 1
   template:
     metadata:
       labels:
-        app: guestbook
-        tier: frontend
+        app: nginx
+        tier: test
     spec:
       containers:
       - name: nginx

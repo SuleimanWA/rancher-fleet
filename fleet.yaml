@@ -1,4 +1,4 @@
-namespace: fleet-manifest-example
+namespace: suleiman-fleet 
 
 imageScans:
 # specify the policy to retrieve images, can be semver or alphabetical order 
